@@ -191,11 +191,10 @@ a {
 
   body {
     color:rgb(255, 255, 255);
-    /* color:#666; */
     font-family: NanumBarunGothic, sans-serif;
     font-weight: 300;
-    background-color: #0c0c0c;
-    /* background-color: #fefefe; */
+    /* background-color: #0c0c0c; */
+    background-color: #2b2b2b;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -262,6 +261,36 @@ li {
 
 #main_theme_div {
   text-align: center;
+}
+
+#main_theme_div02 {
+  position: relative;
+}
+.main_img {
+  opacity: .5;
+}
+.main_img_text {
+  width: 1000px;
+  opacity: .9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-inner {
+  opacity: .5;
+  margin: 0 auto;
+  padding: 50px;
+  width: 500px;
+  font-size: small;
+  color: rgba(255, 255, 255, 50);
 }
 
 #conbox {
@@ -624,7 +653,8 @@ embed, iframe, img, object, video {
     float: right;
     width: 50%;
     height: 50px;
-    /* left: 195px; */
+    left: -14%;
+    top: 5%;
     padding: 15px 0;
     overflow: hidden;
     text-align: left;
@@ -636,7 +666,7 @@ embed, iframe, img, object, video {
     letter-spacing: 1px;
     width: 150px;
     height: 40px;
-    top: auto;
+    top: 10%;
     left: auto;
     text-align: left;
   }
@@ -648,7 +678,7 @@ embed, iframe, img, object, video {
     /* top: 167px; */
     /* left: 140px; */
     width: 300px;
-    top: auto;
+    top: 60%;
     left: auto;
   }
 
@@ -668,7 +698,6 @@ embed, iframe, img, object, video {
     text-align: center;
     /* font-size: 13px; */
     width: 65%;
-    height: 60%;
     position: static;
     top: auto;
     left: auto;
